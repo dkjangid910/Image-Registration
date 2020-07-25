@@ -1,4 +1,5 @@
 # Image-Registration
+<img src="Image_Registration.gif" width="700">
 Image Registration is the process of transforming two or more images/data into the same coordinate system. One of the images is referred as fixed/base image, is considered the reference to other input(moving) images. The following steps are used in the process of transforming, alignment and warpping the images:
 1. Point Feature Detection
 2. Establishing Correspondences 
