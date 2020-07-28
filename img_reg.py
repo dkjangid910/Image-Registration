@@ -52,7 +52,8 @@ class image_registration:
         return H_denorm
         
 #%%        
-def main():   
+def main():  
+    
     ap = argparse.ArgumentParser()
     ap.add_argument("-i", "--input", required=True, nargs='+', help="path toimages to register separated by space", type=str)
     ap.add_argument("-a", "--algorithm", help="h_mat, h_mat_denorm, h_ransac", type=str)
