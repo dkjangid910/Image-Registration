@@ -16,8 +16,26 @@ Image Registration is the process of transforming two or more images/data into t
    2. python 3.5/3.6 
   
 ## How to Run Code:
-   python img_reg.py -i image_1.png image_2.png -a "the method for image registration" 
-   
+   1. Clone Repo
+   ```
+   git clone "https://github.com/dkjangid910/Image-Registration.git"
+   ```
+   2. Create Virtual environment
+   ```
+    virtualenv -p /usr/bin/python3.6 venv(name of virtual environment)
+   ```
+   3. Activate Virtual environment
+   ```
+   source venv/bin/activate
+   ```
+   4. Download dependencies 
+   ```
+   pip install -r requirements.txt 
+   ```
+   5. Run Code
+   ```
+   python img_reg.py -i source.jpeg target.jpeg -a "the method for image registration" 
+   ``` 
    If you don't provide any method, it will run RANSAC bydefault
  
 ## How to install OpenCV 3.4.3 using CMAKE
