@@ -34,9 +34,9 @@ Image Registration is the process of transforming two or more images/data into t
    ```
    5. Run Code
    ```
-   python img_reg.py -i source.jpeg target.jpeg -a "the method for image registration" 
+   python img_reg.py -i ./Data/source.jpeg ./Data/target.jpeg -a "the method for image registration" 
    ``` 
-   If you don't provide any method, it will run RANSAC bydefault
+   If you don't provide any method, it will run RANSAC bydefault. Results will be saved as keypoint.png, regImg.png, Transformed.png
  
 ## How to install OpenCV 3.4.3 using CMAKE
 You can follow this link
